@@ -16,7 +16,7 @@ class Scraper
         :profile_url => student.css("a").attribute("href").text
       }
     end
-   students
+    students
   end
 
   def self.scrape_profile_page(profile_url)
